@@ -6,7 +6,7 @@ import java.util.Date;
  * 
  * 订单类
  * 
- * @author Administrator
+ * @author CANOE
  * 
  */
 public class Order {

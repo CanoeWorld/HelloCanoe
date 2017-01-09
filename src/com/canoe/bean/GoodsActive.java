@@ -1,7 +1,7 @@
 package com.canoe.bean;
 /**
  * 商品促销类
- * @author Administrator
+ * @author CANOE
  *
  */
 public class GoodsActive {

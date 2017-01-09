@@ -4,7 +4,7 @@ import com.canoe.bean.GoodsType;
 
 /**
  * 商品分类
- * @author Administrator
+ * @author CANOE
  *
  */
 public class Goods {

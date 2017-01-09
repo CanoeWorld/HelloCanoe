@@ -1,20 +1,30 @@
 package com.canoe.bean;
 
 /**
+ * 员工
  * 
- * @author Administrator
+ * @author CANOE
  * 
  */
 public class Employee {
 
+	int emplId;// 员工id
 	
+	String emplName;// 员工姓名
 
+	Integer emplSex; // 员工姓名 0 男 1 女
 	
+	int emplAge; //员工年龄
 
+	String emplNo; // 员工编号
 	
+	String emplUsername; //员工用户名
 
+	String emplPwd;// 员工密码
 
+	String emplRemark;// 备注
 	
+	Integer emplStatus; //员工状态 0 离职 1 在职
 	
 	public int getEmplId() {
 		return emplId;
@@ -42,6 +52,7 @@ public class Employee {
 	
 	public String getEmplSexText(){
 		
+		return emplSex == 0 ? "男" : "女";
 	}
 	public String getEmplNo() {
 		return emplNo;
@@ -93,6 +104,7 @@ public class Employee {
 	
 	public String getEmplStatusText() {
 		
+		return emplStatus == 0 ? "离职" : "在职";
 	}
 
 }
